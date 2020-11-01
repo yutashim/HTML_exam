@@ -1,0 +1,25 @@
+.banner_content {
+  /* 上部のマージンを設定 */
+  margin-top: 10px;
+  /* <table>のように振る舞う */
+  display: table;
+
+}
+.banner_content p {
+  /* <td>のように振る舞う */
+  display: table-cell;
+  border: solid 1px black;
+}
+.banner_content p img {
+  /* 画像サイズの修正 */
+  width: 100%;
+}
+
+ul li {
+  color: blue;
+}
+
+.ull:first-child {
+  color: lightgreen;
+  font-weight: bold;
+}
